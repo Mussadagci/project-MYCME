@@ -8,7 +8,6 @@ import StyledHero from "../components/StyledHero";
 export default class SingleRoom extends Component {
   constructor(props) {
     super(props);
-    //console.log(this.props);
     this.state = {
       slug: this.props.match.params.slug,
       defaultBcg: defaultBcg
