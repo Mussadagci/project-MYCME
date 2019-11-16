@@ -10,7 +10,7 @@ export default class SingleRoom extends Component {
     super(props);
     //console.log(this.props);
     this.state = {
-      slug: this.props.match.params.slug,
+      slug: this.props.match.params.bluedream,
       defaultBcg: defaultBcg
     };
   }
