@@ -16,7 +16,10 @@ export default class Navbar extends Component {
         <div className="nav-center">
           <div className="nav-header">
             <Link to="/">
-              BlueDream
+                 
+          
+        
+            
 
            
             </Link>
@@ -31,11 +34,16 @@ export default class Navbar extends Component {
           <ul className={this.state.isOpen ? "nav-links show-nav" : "nav-links"}
           >
               <li>
+                  <Link to="/">BlueDream</Link>
+              </li>
+              <li>
                   <Link to="/">Home</Link>
               </li>
               <li>
                   <Link to="/rooms">Rooms</Link>
               </li>
+              
+              
           </ul>
         </div>
       </nav>
