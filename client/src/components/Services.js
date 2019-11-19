@@ -15,13 +15,13 @@ export default class Services extends Component {
         icon: <FaHiking />,
         title: "Endless Hiking",
         info:
-          "icki cok icmeyin sagliginiza zararlidir lutfen icki yerine elma yada armut suyu iciniz"
+          "hotelimizde size rehberlik edecek izci arkadaslarimiz bulunmaktadir herhangi bir ihtiyac duyuldugunda reception bildiriniz"
       },
       {
         icon: <FaShuttleVan />,
         title: "Free shuttle",
         info:
-          "icki cok icmeyin sagliginiza zararlidir lutfen icki yerine elma yada armut suyu iciniz"
+          "harhangi bir transport lazimsa lutfen reception arkadasimiza veya direk hetel app adresine bildiriniz"
       },
       {
         icon: <FaBeer />,
