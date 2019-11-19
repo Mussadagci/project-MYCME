@@ -34,7 +34,7 @@ export default class Navbar extends Component {
           <ul className={this.state.isOpen ? "nav-links show-nav" : "nav-links"}
           >
               <li>
-                  <Link to="/">BlueDream</Link>
+                  <Link to="/">BlueDream </Link>
               </li>
               <li>
                   <Link to="/">Home</Link>
