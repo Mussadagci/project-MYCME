@@ -7,11 +7,14 @@ import * as serviceWorker from "./serviceWorker";
 import { RoomProvider } from "./context";
 
 ReactDOM.render(
+  <Router>
   <RoomProvider>
     <Router>
       <App />
     </Router>
-  </RoomProvider>,
+  </RoomProvider>
+  </Router>,
+
   document.getElementById("root")
 );
 

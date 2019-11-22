@@ -4,10 +4,10 @@
   box-sizing: border-box;
 }
 :root {
-  --primaryColor: #af9a7d;
+  --primaryColor: #4f90da;
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
-  --mainBlack: #222;
+  --mainBlack: #070707;
   --mainGrey: #ececec;
   --darkGrey: #cfcfcf;
   --mainTransition: all 0.3s linear;
@@ -119,6 +119,7 @@ h6 {
 }
 .nav-links a {
   display: block;
+  float: left;
   text-decoration: none;
   padding: 1rem 0;
   color: var(--mainBlack);
@@ -517,9 +518,4 @@ h6 {
   list-style-type: armenian;
 
 }
-
-
-
-
-
 
